@@ -37,7 +37,7 @@ Across the table sits a hustler with a 400 Elo and a big mouth. Every round he t
 - **A villain who reads how you play**: your speed, your favorite piece, your hesitation, your hanging pieces. He asks you questions, remembers your answers, and remembers you between runs.
 - **Speeches inspired by 30 classic stories and by thinkers from Epictetus and Seneca to Lao Tzu, Pascal and Saadi**, all written as original lines
 - **Layered, soft sound effects** generated live in the browser, no audio files
-- Collection, records, run history, and a fully responsive layout for desktop and mobile
+- Collection, records, run history, and a responsive layout for desktop and mobile
 
 ## Controls
 
@@ -45,9 +45,13 @@ Across the table sits a hustler with a 400 Elo and a big mouth. Every round he t
 - Tap a piece first to preview what every square would pay.
 - Tap the dialogue panel to speed up or skip his lines. The Log button shows everything he has said.
 
-## Run it locally
+## How it's built
 
-The whole game is one file. Download `index.html` and open it in a browser.
+The whole game is one HTML file with no libraries and no build step. The chess engine, the opponent's dialogue and memory, and the sound effects all run from that file. To play offline, download `index.html` and open it in a browser.
+
+## Credits
+
+Design and development by Ramtin Mohammadi.
 
 ## License
 
