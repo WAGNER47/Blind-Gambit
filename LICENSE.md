@@ -1,7 +1,7 @@
 Blind Gambit
 Copyright (c) 2026 Vira Entertainment. All rights reserved.
 
-Blind Gambit is the official title of a game published by Vira Entertainment.
+Blind Gambit is the official title of a game published by Gatehouse Interactrive.
 The game, its source code, logo, artwork, text, dialogue and sound design are
 proprietary works of Vira Entertainment.
 
