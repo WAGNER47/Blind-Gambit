@@ -1,60 +1,82 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Blind Gambit" width="620">
+  <img src="assets/logo.svg" alt="Blind Gambit" width="560">
 </p>
 
 <p align="center">
-  <b>A chess roguelite where every move is a bet, and the man across the table will not stay a man for long.</b><br>
-  <sub>A Vira Entertainment game</sub>
+  A chess roguelike where every move is a bet.<br>
+  <a href="https://wagner47.github.io/Blind-Gambit/"><b>Play it free in your browser</b></a>
 </p>
 
 <p align="center">
-  <a href="https://wagner47.github.io/Blind-Gambit/"><img src="https://img.shields.io/badge/PLAY%20IN%20YOUR%20BROWSER-ff4f9a?style=for-the-badge" alt="Play in your browser"></a>
+  <img src="assets/shot-table.png" alt="A Classic Run at Ante 4. A knight takes on f7 for 102 Chips × 8 Mult while The Seer comments." width="100%">
 </p>
 
----
+## How it plays
 
-## Play
+You play real chess against one opponent, but each round is a score challenge. Every move scores Chips × Mult. The piece you move sets the base, and captures, checks, promotions and anything you've bought add to it. Reach the round's target before your moves run out. Checkmating him also wins the round. In a Classic Run, missing a target or getting checkmated ends the run.
 
-**[wagner47.github.io/Blind-Gambit](https://wagner47.github.io/Blind-Gambit/)**
+Between rounds you spend your coins in the Deal: perks that change how moves score, items that stack, one-use tricks, and upgrades for a piece type.
 
-No install, no account. It runs in any modern browser on desktop or phone, and your progress saves on your device.
+Your opponent changes every ante, eight forms in all. He starts as The Hustler, a weak player with a lot to say, and plays stronger chess every round after that.
 
-## What it is
+<table>
+  <tr>
+    <td><img src="assets/shot-hustler.png" alt="Ante 1: The Hustler, Elo 400"></td>
+    <td><img src="assets/shot-oracle.png" alt="Ante 6: The Oracle"></td>
+  </tr>
+  <tr>
+    <td align="center">Ante 1</td>
+    <td align="center">Ante 6</td>
+  </tr>
+</table>
 
-You play real chess against an opponent who changes every round. Every move you make scores **Chips × Mult**: the piece you move sets the base, and captures, checks, promotions, perks and items stack on top. Hit the round's target before your moves run out, then spend your winnings in **The Deal** to build a run that nobody else will ever play quite the same way.
+## What's in it
 
-Across the table sits a hustler with a 400 Elo and a big mouth. Every round he transforms. By the final ante he is something else entirely, with an Elo past 10,000, a quiet voice, and questions you might still be thinking about after you close the tab.
+- **Classic Run.** 8 antes of 3 blinds. The board carries over from one round to the next. When either side is down to 5 pieces, the table resets and you switch colors.
+- **Double Cross.** One game played to checkmate, in hands of 6 moves. After each hand you take over the side you were just playing against.
+- 36 perks, 34 items and 12 tricks. Perks and items roll their own numbers each time they show up, and some come Enhanced.
+- 14 of the items change how your pieces move: pawns that step sideways, rooks that jump like knights, a queen that can make a knight's move too.
+- 8 bosses that each change one rule for their round, 8 starting setups (seats) with 7 to unlock, and 5 heat levels for harder runs.
+- The Daily Deal: the same seeded run for everyone, once a day.
+- He keeps track of you. He comments on how you play, asks questions in the middle of a game, remembers your answers from one run to the next, and calls it out when your play doesn't match what you told him.
 
-## Features
+<p align="center">
+  <img src="assets/shot-deal.png" alt="The Boss Deal with a trick, an item and an Enhanced perk for sale" width="100%">
+</p>
 
-- **Two modes**
-  - **Classic Run**: 8 antes, 3 blinds each. The board carries over between rounds and resets with swapped seats when either side is down to 5 pieces.
-  - **Double Cross**: one game played to checkmate. After every hand the table turns and you take over the side you were fighting.
-- **36 perks, 13 stacking items and 12 one-use cards**, every copy with its own rolled stats, plus Enhanced versions
-- **8 seats** (starting loadouts) and **6 heat levels** to unlock
-- **Daily Deal**: one seeded run for everyone, every day
-- **A real chess engine** that grows from deliberate blunders to deep search
-- **A villain who reads how you play**: your speed, your favorite piece, your hesitation, your hanging pieces. He asks you questions, remembers your answers, and remembers you between runs.
-- **Speeches inspired by 30 classic stories and by thinkers from Epictetus and Seneca to Lao Tzu, Pascal and Saadi**, all written as original lines
-- **Layered, soft sound effects** generated live in the browser, no audio files
-- Collection, records, run history, and a responsive layout for desktop and mobile
+## On a phone
+
+The table fits on one screen, with your perks, tricks and items one tap away.
+
+<p align="center">
+  <img src="assets/shot-phone.png" alt="Three phone screens: the menu, a round against The Seer, and the Boss Deal" width="100%">
+</p>
 
 ## Controls
 
-- Tap or click any square one of your pieces can reach and it moves there.
-- Tap a piece first to preview what every square would pay.
-- Tap the dialogue panel to speed up or skip his lines. The Log button shows everything he has said.
+- Tap or click a square one of your pieces can reach and it moves there. If two pieces can reach it, tap the one you want.
+- Tap a piece first to see what each square would score.
+- When he asks a question, tap an answer or press 1, 2 or 3.
+- Tap his dialogue to skip ahead. Log shows what he has said.
 
-## How it's built
+## Notes
 
-The whole game is one HTML file with no libraries and no build step. The chess engine, the opponent's dialogue and memory, and the sound effects all run from that file. To play offline, download `index.html` and open it in a browser.
+- Runs in a modern browser on desktop or phone. No install, no account.
+- Your progress is saved in that browser on that device. Clearing site data resets it.
+- The whole game is one HTML file, `index.html`.
 
 ## Credits
 
-Design and development by Ramtin Mohammadi.
+A game by Ramtin Mohammadi.<br>
+Published by Gatehouse Interactive.<br>
+Made with Vira Engine.
+
+His lines are original writing, inspired by thirty classic stories and by Epictetus, Seneca, Marcus Aurelius, Heraclitus, Socrates, Lao Tzu, Pascal, Kierkegaard and Saadi.
+
+Fonts: Bangers, Rubik, Shrikhand, Yellowtail, Alfa Slab One and Bebas Neue, all under the SIL Open Font License.
 
 ## License
 
-© 2026 Vira Entertainment. All rights reserved. See [LICENSE.md](LICENSE.md). You are welcome to play the game and share the link. Please do not redistribute or reuse the code or art without permission.
+© 2026 Gatehouse Interactive. All rights reserved.
 
-<p align="right"><sub><sup>Made with Vira Engine</sup></sub></p>
+You're welcome to play the game and share the link. Please don't copy, redistribute or reuse the code, art or writing without permission. See [LICENSE.md](LICENSE.md).
