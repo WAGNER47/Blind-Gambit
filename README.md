@@ -63,7 +63,6 @@ The table fits on one screen, with your perks, tricks and items one tap away.
 
 - Runs in a modern browser on desktop or phone. No install, no account.
 - Your progress is saved in that browser on that device. Clearing site data resets it.
-- The whole game is one HTML file, `index.html`.
 
 ## Credits
 
