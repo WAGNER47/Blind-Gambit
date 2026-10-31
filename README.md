@@ -39,6 +39,7 @@ Your opponent changes every ante, eight forms in all. He starts as The Hustler, 
 - 8 bosses that each change one rule for their round, 8 starting setups (seats) with 7 to unlock, and 5 heat levels for harder runs.
 - The Daily Deal: the same seeded run for everyone, once a day.
 - He keeps track of you. He comments on how you play, asks questions in the middle of a game, remembers your answers from one run to the next, and calls it out when your play doesn't match what you told him.
+- English and Persian (فارسی). The language button sits in the main menu next to Sound and Fast. In Persian the whole game reads right to left, with Persian numerals.
 
 <p align="center">
   <img src="assets/shot-deal.png" alt="The Boss Deal with a trick, an item and an Enhanced perk for sale" width="100%">
@@ -72,7 +73,7 @@ Made with Vira Engine.
 
 His lines are original writing, inspired by thirty classic stories and by Epictetus, Seneca, Marcus Aurelius, Heraclitus, Socrates, Lao Tzu, Pascal, Kierkegaard and Saadi.
 
-Fonts: Bangers, Rubik, Shrikhand, Yellowtail, Alfa Slab One and Bebas Neue, all under the SIL Open Font License.
+Fonts: Bangers, Rubik, Shrikhand, Yellowtail, Alfa Slab One and Bebas Neue, plus Vazirmatn for Persian, all under the SIL Open Font License.
 
 ## License
 
